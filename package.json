@@ -1,0 +1,47 @@
+{
+  "name": "dsh-selection-toolbar",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness 客户端插件：选中文本或图片时弹出浮动工具栏，可把选区加入对话、查看详情（交给免费网页版详解），或在右栏的侧边聊天里提问。",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./client/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "client",
+    "userscript",
+    "cordis.patch.yml",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "check": "node --check client/client.js && node --check lib/index.js",
+    "pack:check": "npm pack --dry-run"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "client-plugin",
+    "selection",
+    "toolbar",
+    "quote",
+    "side-chat"
+  ],
+  "license": "MIT",
+  "author": "仇戌智",
+  "sideEffects": false,
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}

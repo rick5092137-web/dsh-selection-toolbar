@@ -1,0 +1,3 @@
+- insert:
+    - id: selection-toolbar
+      name: 'dsh-selection-toolbar'

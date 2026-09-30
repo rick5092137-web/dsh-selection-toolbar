@@ -1,0 +1,16 @@
+# 依赖与构建产物
+node_modules/
+pnpm-lock.yaml
+
+# asar 取证用的临时转储（见 tools/README.md）
+tools/dumps/
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+
+# npm 打包含
+*.tgz
