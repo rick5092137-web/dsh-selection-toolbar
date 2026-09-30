@@ -33,6 +33,14 @@
     "quote",
     "side-chat"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rick5092137-web/dsh-selection-toolbar.git"
+  },
+  "homepage": "https://github.com/rick5092137-web/dsh-selection-toolbar#readme",
+  "bugs": {
+    "url": "https://github.com/rick5092137-web/dsh-selection-toolbar/issues"
+  },
   "license": "MIT",
   "author": "仇戌智",
   "sideEffects": false,
